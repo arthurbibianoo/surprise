@@ -14,7 +14,7 @@ body {
 h2:before {
     content: "";
     display: block;
-    width: 50px;
+    width: 50%;
     height: 2px;
     position: absolute;
     background: #000;
@@ -26,7 +26,7 @@ h2:before {
 h2:after {
     content: "";
     display: block;
-    width: 50px;
+    width: 50%;
     height: 2px;
     position: absolute;
     background: #000;
@@ -38,6 +38,7 @@ h2:after {
 
 span {
     background: #fff;
+    padding: 0 20px;
 }
 .header {
     width: 100%;
@@ -71,16 +72,39 @@ span {
     font-size: 28px;
 }
 
+.btn {
+    display: inline-block;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #FECECE;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 50px;
+    padding: 10px 25px;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: 0.2s;
+}
+
+.btn:hover {
+    background-color: #F59999;
+}
+
 .sobre-text .content h2 {
-    margin: 100px auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
     font-size: 40px;
     max-width: 600px;
     position: relative;
 }
-
 .timeline-text .content h2 {
-    margin: 100px auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
     font-size: 40px;
     max-width: 600px;
@@ -98,4 +122,5 @@ span {
     max-width: 100%;
     height: auto;
     display: block;
+    margin: auto;
 }
