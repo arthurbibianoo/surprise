@@ -1,14 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;600&family=Inter:wght@100&family=Montserrat:wght@400;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     outline: none;
+    font-family: 'Montserrat', sans-serif;
 }
 
 body {
     background-color: #fff;
 
+}
+
+h1, h2 {
+    color: #403E1C;
+    font-size: bold;
+}
+
+h2 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 40px;
+    max-width: 600px;
+    position: relative;
 }
 
 h2:before {
@@ -64,12 +83,12 @@ span {
 }
 
 .content h1 {
-    font-size: 75px;
+    font-size: 65px;
     margin-bottom: 15px;
 }
 
 .content p {
-    font-size: 28px;
+    font-size: 25px;
 }
 
 .btn {
@@ -90,37 +109,17 @@ span {
     background-color: #F59999;
 }
 
-.sobre-text .content h2 {
-    margin-top: 100px;
-    margin-bottom: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    font-size: 40px;
-    max-width: 600px;
-    position: relative;
-}
-.timeline-text .content h2 {
-    margin-top: 100px;
-    margin-bottom: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    font-size: 40px;
-    max-width: 600px;
-    position: relative;
-}
-
 .timeline-image {
     display: flex;
     align-items: center;
-    justify-content: center;
-    height: 100vh;
+    justify-content: center;    
+    height: 100%;
 }
 
 .timeline-image img {
     max-width: 100%;
-    height: auto;
+    max-height: 1184px;
     display: block;
     margin: auto;
+    padding-top: 50px;
 }
