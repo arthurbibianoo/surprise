@@ -9,6 +9,10 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #fff;
 
@@ -22,6 +26,7 @@ h1, h2 {
 p {
     font-size: 16px;
     text-align: center;
+    margin: 10px;
 }
 
 h2 {
@@ -101,7 +106,7 @@ span {
     background-color: #FECECE;
     color: #fff;
     border-radius: 5px;
-    margin-top: 50px;
+    margin: 30px;
     padding: 10px 25px;
     border: none;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -142,4 +147,8 @@ span {
     display: block;
     margin: auto;
     padding-top: 50px;
+}
+
+.youtube-text .content {
+    text-align: center;
 }
