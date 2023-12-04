@@ -9,10 +9,6 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
 body {
     background-color: #fff;
 
@@ -151,4 +147,8 @@ span {
 
 .youtube-text .content {
     text-align: center;
+}
+
+.youtube {
+    margin-bottom: 30px;
 }
